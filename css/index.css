@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Caladea|Raleway&display=swap');
+
+:root {
+    --main-color: black;
+    --secondary-color: green;
+    
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header nav h1 {
+    font-family:"Caladea";
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center; 
+}
+
+header nav .top-menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav .top-menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    border: 1px solid transparent;
+    padding: 5px;
+}
+
+header nav .top-menu a:hover {
+    border: 1px solid var(--main-color);
+}
+
+@media (min-width: 550px) {
+    header nav {
+        display: flex;
+        justify-content: 
+    }
+    header nav .top-menu {
+        flex: 1;
+    }
+}
+
+header div {
+    background-image: url(../img/shoplogo.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+}
+
+header .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header .banner .title {
+    font-size: 3rem;
+    font-family: "Caladea";
+    text-transform: uppercase;
+    color: var(--secondary-color)
+}
+
+main .product-list .product-card img {
+    display: 
+}
+
+
+button:hover {
+    color: #000000;
+    background-color: #ffffff
+}
+
+@media (min-windth: 580px) {
+    main .product-list
+}
